@@ -1,9 +1,11 @@
 name: HWLAB CI
 
+# Public showcase workflow
+# Requires access to the private HWLAB infrastructure
+# and self-hosted Raspberry Pi validation runners.
+
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
 
 jobs:
 
