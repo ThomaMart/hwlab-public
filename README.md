@@ -23,6 +23,35 @@ The objective is to bridge the gap between software CI/CD practices and real emb
 
 ---
 
+# 🚀 Overview
+
+HWLAB is a personal hardware integration and embedded CI platform designed to automate validation workflows on real devices.
+
+The project focuses on:
+
+* ⚙️ Hardware CI/CD orchestration
+* 🌐 PXE / NFS boot infrastructure
+* 📡 UART boot monitoring
+* 🔐 SSH validation
+* 🚀 Firmware deployment
+* 🧪 Remote testing
+* 📈 Infrastructure observability
+* 🖥️ Multi-target orchestration
+
+---
+
+# 📊 Project Scale
+
+* 🍓 3 Raspberry Pi devices
+* 🌐 Dedicated validation network
+* 📡 UART-based hardware orchestration
+* ⚙️ 30+ automation scripts
+* 📈 Real-time observability stack
+* 🚀 Automated firmware validation workflows
+
+
+---
+
 # 💼 Engineering Skills Demonstrated
 
 This project combines multiple disciplines usually distributed across different engineering roles.
@@ -177,23 +206,6 @@ rpi-target-01       rpi-target-02
 
 ---
 
-# 🚀 Overview
-
-HWLAB is a personal hardware integration and embedded CI platform designed to automate validation workflows on real devices.
-
-The project focuses on:
-
-* ⚙️ Hardware CI/CD orchestration
-* 🌐 PXE / NFS boot infrastructure
-* 📡 UART boot monitoring
-* 🔐 SSH validation
-* 🚀 Firmware deployment
-* 🧪 Remote testing
-* 📈 Infrastructure observability
-* 🖥️ Multi-target orchestration
-
----
-
 # 🎯 Targets
 
 | Target          | Boot Mode              | Purpose                         |
@@ -312,4 +324,8 @@ Current infrastructure includes:
 
 # 👨‍💻 Author
 
-Personal hardware integration & embedded Linux CI laboratory project focused on automation, observability and real-device validation workflows.
+Thomas Martin
+
+Infrastructure, Embedded Linux and Hardware Integration Engineer.
+
+This project was created to explore real-world infrastructure automation, hardware validation and observability practices using Raspberry Pi platforms and open-source technologies.
