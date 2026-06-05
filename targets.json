@@ -3,17 +3,17 @@
 
     {
       "name": "rpi-target-01",
-      "ip": "10.10.1.101",
+      "ip": "TARGET_IP",
       "uart": "/dev/ttyUSB2",
-      "plug_ip": "192.168.1.54",
+      "plug_ip": "SMARTPLUG_IP",
       "user": "lab"
     },
 
     {
       "name": "rpi-target-02",
-      "ip": "10.10.0.102",
+      "ip": "TARGET_IP",
       "uart": "/dev/ttyUSB1",
-      "plug_ip": "192.168.1.55",
+      "plug_ip": "SMARTPLUG_IP",
       "user": "lab"
 
     }

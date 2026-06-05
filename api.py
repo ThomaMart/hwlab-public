@@ -6,9 +6,11 @@ import subprocess
 
 app = FastAPI()
 
-STATE_FILE = Path("/home/admin/hwlab/state/current_state")
+BASE_DIR = Path(__file__).resolve().parent
 
-REPORT_FILE = Path("/home/admin/hwlab/reports/latest.txt")
+STATE_FILE = BASE_DIR / "state" / "current_state"
+
+REPORT_FILE = BASE_DIR / "reports" / "latest.txt"
 
 
 @app.get("/")
@@ -59,7 +61,7 @@ def reboot_target():
 
     subprocess.Popen([
         "ssh",
-        "lab@10.10.0.100",
+        "lab@TARGET_IP",
         "sudo reboot"
     ])
 

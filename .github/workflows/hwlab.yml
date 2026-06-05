@@ -40,7 +40,7 @@ jobs:
           retention-days: 7
 
           path: |
-            /home/admin/hwlab/reports/latest.txt
-            /home/admin/hwlab/logs/target.log
-            /home/admin/hwlab/logs/uart_orchestrator.stdout
-            /home/admin/hwlab/history/
+            reports/latest.txt
+            logs/target.log
+            logs/uart_orchestrator.stdout
+            history/
