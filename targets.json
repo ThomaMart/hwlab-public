@@ -1,0 +1,22 @@
+{
+  "targets": [
+
+    {
+      "name": "rpi-target-01",
+      "ip": "10.10.1.101",
+      "uart": "/dev/ttyUSB2",
+      "plug_ip": "192.168.1.54",
+      "user": "lab"
+    },
+
+    {
+      "name": "rpi-target-02",
+      "ip": "10.10.0.102",
+      "uart": "/dev/ttyUSB1",
+      "plug_ip": "192.168.1.55",
+      "user": "lab"
+
+    }
+
+  ]
+}

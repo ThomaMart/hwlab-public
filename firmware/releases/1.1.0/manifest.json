@@ -1,0 +1,8 @@
+{
+  "version": "1.1.0",
+  "kernel": "6.99.99-custom",
+  "bootloader": "2026-05-22",
+  "os": "Raspbian GNU/Linux 13 (trixie)",
+  "architecture": "armv7l",
+  "target": "rpi-target-01"
+}

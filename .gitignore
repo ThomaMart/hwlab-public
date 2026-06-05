@@ -1,0 +1,12 @@
+*.img
+*.img.xz
+*.iso
+*.qcow2
+*.pyc
+
+history/
+logs/
+state/
+venv/
+reports/
+__pycache__/

@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "kernel": "6.12.75+rpt-rpi-v7",
+  "bootloader": "2026-03-11",
+  "os": "Raspbian GNU/Linux 13 (trixie)",
+  "architecture": "armv7l",
+  "target": "rpi-target-01"
+}

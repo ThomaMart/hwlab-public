@@ -1,0 +1,46 @@
+name: HWLAB CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  hardware-test:
+
+    runs-on: [self-hosted, hwlab]
+
+    steps:
+
+      - name: Update HWLAB
+        run: |
+          cd ~/hwlab
+          git pull
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run HWLAB pipeline
+        run: |
+          ./scripts/run_pipeline.sh \
+          rpi-target-01
+
+          ./scripts/run_pipeline.sh \
+          rpi-target-02          
+
+      - name: Upload reports
+
+        uses: actions/upload-artifact@v4
+
+        with:
+
+          name: hwlab-report
+
+          retention-days: 7
+
+          path: |
+            /home/admin/hwlab/reports/latest.txt
+            /home/admin/hwlab/logs/target.log
+            /home/admin/hwlab/logs/uart_orchestrator.stdout
+            /home/admin/hwlab/history/
