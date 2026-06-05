@@ -71,7 +71,7 @@ This project combines multiple disciplines usually distributed across different 
 
 # 📸 Hardware Lab
 
-<img width="1448" height="1086" alt="hwlab" src="https://github.com/user-attachments/assets/72f9dd58-c908-4983-bc62-bc1ce7d1366d" />
+<img width="1448" height="1086" alt="hwlab" src="https://github.com/user-attachments/assets/f328f657-6a35-4e9a-8566-d8876f510b9c" />
 
 ## 🖥️ Physical Infrastructure
 
@@ -91,7 +91,7 @@ The lab is designed to validate real hardware workflows instead of virtualized e
 
 # 🧩 Custom Hardware Integration
 
-<img width="1668" height="1515" alt="Shapr3D" src="https://github.com/user-attachments/assets/8ef3a4f9-8b93-4c67-a78f-9479dde37dc7" />
+<img width="1668" height="1515" alt="Shapr3D" src="https://github.com/user-attachments/assets/6f000595-22e1-4aae-973a-5516a425ad98" />
 
 To improve maintainability and reproducibility of the setup, a custom 3D-printed support was designed to integrate:
 
@@ -112,7 +112,7 @@ This allows:
 
 # 📊 Monitoring & Observability
 
-<img width="1918" height="953" alt="Grafana3" src="https://github.com/user-attachments/assets/38ce686c-8bd2-44cf-a35d-5d07856be20b" />
+<img width="1918" height="953" alt="Grafana3" src="https://github.com/user-attachments/assets/3aa36a49-f01d-4c20-82d3-624d1cff678d" />
 
 HWLAB integrates a complete observability stack using:
 
@@ -134,7 +134,7 @@ HWLAB integrates a complete observability stack using:
 
 # ⚙️ CI/CD Integration
 
-<img width="1327" height="545" alt="github_action2" src="https://github.com/user-attachments/assets/91b02725-608e-4cc5-bb9a-f6af681290fe" />
+<img width="1327" height="545" alt="github_action2" src="https://github.com/user-attachments/assets/567798e6-716e-4e5d-b08c-b7bae22b2df8" />
 
 The lab integrates directly with GitHub Actions using a self-hosted runner connected to real hardware targets.
 
