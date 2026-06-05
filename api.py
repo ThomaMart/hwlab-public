@@ -47,9 +47,9 @@ def report():
 @app.post("/run")
 def run_pipeline():
 
-    subprocess.Popen(
-        ["/home/admin/hwlab/scripts/run_pipeline.sh"]
-    )
+    subprocess.Popen([
+        str(BASE_DIR / "scripts" / "run_pipeline.sh")
+    ])
 
     return {
         "status": "pipeline started"
