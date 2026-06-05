@@ -1,8 +1,6 @@
 # 🔧 HWLAB — Hardware Integration & Embedded CI Lab
 
-> Automated Raspberry Pi hardware integration platform focused on bare-metal validation, firmware deployment, UART orchestration and infrastructure observability.
-
-> Demonstration project showcasing Infrastructure Engineering, Embedded Linux Integration, CI/CD Automation and Hardware Validation on real devices.
+> Personal engineering project demonstrating Infrastructure Automation, Embedded Linux Integration, CI/CD Orchestration and Hardware Validation on real Raspberry Pi devices.
 
 ---
 
