@@ -4,6 +4,14 @@
 
 ---
 
+## ⚠️ Public Repository Notice
+
+This repository is a public showcase version of HWLAB.
+
+Some GitHub Actions workflows require access to the private Raspberry Pi validation laboratory and self-hosted runners. Therefore, workflow execution is intentionally disabled in the public version while preserving the CI/CD implementation for demonstration purposes.
+
+---
+
 # 🎯 Engineering Objectives
 
 HWLAB was designed to reproduce real-world hardware integration challenges commonly encountered in embedded systems, infrastructure engineering and continuous validation environments.
