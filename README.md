@@ -268,6 +268,8 @@ The monitoring infrastructure includes:
 * 📊 Prometheus scraping
 * 🧩 Custom hardware exporter
 * 📈 Grafana dashboards
+* 📜 Loki
+* 📡 Promtail
 * ⚙️ Pipeline metrics
 * 🖥️ Infrastructure metrics
 * 🟢 Hardware health tracking
@@ -305,6 +307,8 @@ Report generation
 * 🐙 GitHub Actions
 * 📈 Prometheus
 * 📊 Grafana
+* 📜 Loki
+* 📡 Promtail
 * 🍓 Raspberry Pi
 * 📡 UART / Serial
 * 🌐 PXE / TFTP
