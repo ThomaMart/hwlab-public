@@ -147,7 +147,9 @@ This allows:
 
 # 📊 Monitoring & Observability
 
-<img width="1918" height="953" alt="Grafana3" src="https://github.com/user-attachments/assets/3aa36a49-f01d-4c20-82d3-624d1cff678d" />
+<img width="1917" height="772" alt="Screenshot_2026-06-10_14-59-12" src="https://github.com/user-attachments/assets/f8eb6e12-87a6-4be7-99ee-89f1d80c7de6" />
+<img width="1920" height="657" alt="Screenshot_2026-06-10_15-00-26" src="https://github.com/user-attachments/assets/a56b247f-b739-47d8-9f80-84fafb6a8ddb" />
+<img width="1920" height="666" alt="Screenshot_2026-06-10_15-00-11" src="https://github.com/user-attachments/assets/ae36cd3f-ec21-472a-beb6-a64825e9bae2" />
 
 HWLAB integrates a complete observability stack using:
 
